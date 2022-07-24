@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+NSW+ACT+Foundation:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+.food-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+}
+
+.food-card{
+    border-radius: 15px;
+    overflow: hidden;
+    height: 265px;
+    display: grid;
+    grid-row: 1fr auto;
+}
+
+.food-image{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-price{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    color: white;
+    font-weight: 800;
+}
+
+.food-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-family: Edu NSW ACT Foundation;
+    color: aliceblue;
+}
+
+.food-image img{
+    width: 200%;
+}
+
+.food-menu h3 {
+    font-size: 32px;
+}
+
+.food-price span{
+    font-size: 28px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(4, 2fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 12px;
+    padding-top: 100px;
+    }
+
+
+
+.parent img{
+    width: 100%;
+}
+
+.food-desc{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.prtfoodImg{
+    border-radius: 15px;
+    overflow: hidden;
+    height: 265px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.food1 h3{
+    padding-bottom: 60px;
+
+}
+
+.spaghetti-price{
+    padding-bottom: 70px;
+    color: orange;
+    font-size: 2rem;
+}
+
+.food1-desc{
+    font-size: 12px;
+}
+    
+
+    
+    
